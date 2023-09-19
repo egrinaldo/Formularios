@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800; 0.900;1.100;1.200;1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=swap');
+
+
+
+body {
+    background: linear-gradient(to right,#0984CB, #063E6E, #033662);
+    width: 99vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.form {
+    display: flex;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-style: groove;
+
+}
+
+.form1 label,details{
+    color: azure;
+}
+.form1 textarea{
+    resize: none;
+}
+.form2 label,details{
+    color: azure;
+}
+
+.formulario {
+    display: flex;
+    width: 600px;
+    /* flex-flow tag para colocar um item por cima do outro */
+    flex-flow: column wrap;
+    margin: 30px;
+    /* Espaçamento entre os itendes dentro da div */
+    gap: 10px;
+
+}
+
+.formulario input {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.formulario ::placeholder {
+    text-align: center;
+}
+
+.but{
+    font-size: 15px;
+    font-weight: bold;
+    background: #cccccc;
+    padding: 5px 3px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.but:hover {
+    background: #C2106C;
+}
+
+.form2{
+    display: flex;
+    background-image: url(271a13f53b5c819944040d97803fbe9f.jpg);
+    justify-content: center;
+    align-items: start;
+}
+
+.formulario2{
+    display: flex;
+    width: 300px;
+    /* flex-flow tag para colocar um item por cima do outro */
+    flex-flow: column wrap;
+    margin: 30px;
+    /* Espaçamento entre os itendes dentro da div */
+    gap: 10px;
+}
+.formulario2 input {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.formulario2 ::placeholder {
+    text-align: center;
+}
+
+.but{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    background: #cccccc;
+    margin: auto;
+    width: 30%;
+    padding: 5px 3px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.but:hover {
+    background: #C2106C;
+}
+
+.formulario2 div{
+    display: flex;
+    margin-top: 42px;
+}
+
+#estado{
+    height: 25px;
+}
+#estado option{
+    text-align: center;
+}
+/*  */
