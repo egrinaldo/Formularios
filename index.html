@@ -1,86 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário</title>
-    <link rel="stylesheet" href="index.css">
-    
-    
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="form1">
+        <form
+          class="formulario"
+          action="mailto:egrinaldo19@gmail.com"
+          method="post"
+        >
+          <label for="nome">NOME:</label>
+          <input
+            type="text"
+            name="nome"
+            placeholder="Digite Seu nome"
+            required
+          />
+          <label for="email">EMAIL:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Digite Seu Email"
+            required
+          />
+          <label for="Mensagem">DIGITE SUA MENSAGEM:</label>
+          <textarea
+            name="mensagem"
+            id="msg"
+            cols="10"
+            rows="6"
+            placeholder="Digite Sua Mensagem"
+            required
+          ></textarea>
+          <label for="profissao">CARGO</label>
+          <input
+            type="text"
+            list="prof"
+            name="Profissao"
+            placeholder="Informe Sua Profissão"
+            required
+          />
+          <datalist id="prof">
+            <option value="Professor"></option>
+            <option value="Coordenador"></option>
+            <option value="Pedreiro"></option>
+            <option value="Auxiliar ADM"></option>
+            <option value="Suporte"></option>
+          </datalist>
 
-<div class="form">
-    <div class="form1">
-        <form class="formulario" action="mailto:egrinaldo19@gmail.com" method="post">
-            <label for="nome">NOME:</label>
-            <input type="text" name="nome" placeholder="Digite Seu nome" required>
-            <label for="email">EMAIL:</label>
-            <input type="email" name="email" placeholder="Digite Seu Email" required>
-            <label for="Mensagem">DIGITE SUA MENSAGEM:</label>
-            <textarea name="mensagem" id="msg" cols="10" rows="6" placeholder="Digite Sua Mensagem" required></textarea>
-            <label for="profissao">CARGO</label>
-            <input type="text" list="prof" name="Profissao" placeholder="Informe Sua Profissão" required>
-            <datalist id="prof">
-                    <option value="Professor">
-                    <option value="Coordenador">
-                    <option value="Pedreiro">
-                    <option value="Auxiliar ADM">
-                    <option value="Suporte">
-            </datalist>
-    
-            <details>
-                <summary>Políticas do Site</summary>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Fugit numquam pariatur aut! Repellendus modi consectetur ut dignissimos nisi asperiores,<br> quaerat et quis voluptas, cumque optio suscipit voluptatem at fugit quidem.</p>
-            </details>
+          <details>
+            <summary>Políticas do Site</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Fugit
+              numquam pariatur aut! Repellendus modi consectetur ut dignissimos
+              nisi asperiores,<br />
+              quaerat et quis voluptas, cumque optio suscipit voluptatem at
+              fugit quidem.
+            </p>
+          </details>
         </form>
-    </div>
-    <div class="form2">
-        <form class="formulario2" action="mailto:egrinaldo19@gmail.com" method="post">
-            <label for="data_nascimento">DATA DE NASCIMENTO</label>
-            <input type="date" name="data_nascimento" placeholder="Digite Sua Data de Nascimento" required>
-            <label for="país">NACIONALIDADE</label>
-            <input type="text" list="text" name="país" placeholder="País" required>
-            <label for="cidade">CIDADE</label>
-            <input type="text" name="cidade" placeholder="INFORME SEU LOCAL DE NASCIMENTO" required>
-            <label for="estado">UF</label>
-            <select id="estado">
-                    <option value="">--</option>
-                    <option value="">AC</option>
-                    <option value="">AL</option>
-                    <option value="">AP</option>
-                    <option value="">AM</option>
-                    <option value="">BA</option>
-                    <option value="">CE</option>
-                    <option value="">ES</option>
-                    <option value="">GO</option>
-                    <option value="">MA</option>
-                    <option value="">MT</option>
-                    <option value="">MS</option>
-                    <option value="">MG</option>
-                    <option value="">PA</option>
-                    <option value="">PB</option>
-                    <option value="">PR</option>
-                    <option value="">PE</option>
-                    <option value="">PI</option>
-                    <option value="">RJ</option>
-                    <option value="">RN</option>
-                    <option value="">RS</option>
-                    <option value="">RO</option>
-                    <option value="">RR</option>
-                    <option value="">SC</option>
-                    <option value="">SP</option>
-                    <option value="">SE</option>
-                    <option value="">TO</option>
-                    </select> 
-                <div>
-                    <input class="but" type="submit" name="ENVIAR">
-                    <input class="but" type="reset" name="LIMPAR">
-                </div>
+      </div>
+      <div class="form2">
+        <form
+          class="formulario2"
+          action="mailto:egrinaldo19@gmail.com"
+          method="post"
+        >
+          <label for="data_nascimento">DATA DE NASCIMENTO</label>
+          <input
+            type="date"
+            name="data_nascimento"
+            placeholder="Digite Sua Data de Nascimento"
+            required
+          />
+          <label for="país">NACIONALIDADE</label>
+          <input
+            type="text"
+            list="text"
+            name="país"
+            placeholder="País"
+            required
+          />
+          <label for="cidade">CIDADE</label>
+          <input
+            type="text"
+            name="cidade"
+            placeholder="INFORME SEU LOCAL DE NASCIMENTO"
+            required
+          />
+          <label for="estado">UF</label>
+          <select id="estado">
+            <option value="">--</option>
+            <option value="">AC</option>
+            <option value="">AL</option>
+            <option value="">AP</option>
+            <option value="">AM</option>
+            <option value="">BA</option>
+            <option value="">CE</option>
+            <option value="">ES</option>
+            <option value="">GO</option>
+            <option value="">MA</option>
+            <option value="">MT</option>
+            <option value="">MS</option>
+            <option value="">MG</option>
+            <option value="">PA</option>
+            <option value="">PB</option>
+            <option value="">PR</option>
+            <option value="">PE</option>
+            <option value="">PI</option>
+            <option value="">RJ</option>
+            <option value="">RN</option>
+            <option value="">RS</option>
+            <option value="">RO</option>
+            <option value="">RR</option>
+            <option value="">SC</option>
+            <option value="">SP</option>
+            <option value="">SE</option>
+            <option value="">TO</option>
+          </select>
+          <div>
+            <input class="but" type="submit" name="ENVIAR" />
+            <input class="but" type="reset" name="LIMPAR" />
+          </div>
         </form>
+      </div>
     </div>
-    
-</div>
-<script src="index.js"></script>
-</body>
+
+    <main id="cadastro">
+      <div class="item">
+        <div class="item-icone"></div>
+        <div class="item-nome"></div>
+        <div class="item-botao"></div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>

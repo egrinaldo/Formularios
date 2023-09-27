@@ -10,6 +10,15 @@ body {
     justify-content: center;
     align-items: center;
     object-fit: cover;
+    flex-flow: column;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto auto;
+    border:  1px solid bisque;
+    padding-top: 40px;
 }
 
 .form {
@@ -123,3 +132,30 @@ body {
     text-align: center;
 }
 /*  */
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #cccccc;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px #cccccc;
+}
+
+.item-icone{
+    flex: 20%;
+    border: 1px solid red;
+}
+
+.item-nome{
+    flex: 55%;
+    border: 1px solid deeppink;
+
+}
+
+.item-botao{
+    flex: 25%;
+    border: green;
+}
